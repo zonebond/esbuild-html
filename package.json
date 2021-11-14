@@ -1,0 +1,13 @@
+{
+  "name": "esbuild-html",
+  "version": "1.0.0",
+  "description": "esbuild plugin for generate pages html.",
+  "main": "index.js",
+  "author": "zonebond",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
