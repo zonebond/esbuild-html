@@ -65,7 +65,7 @@ import { VGroup } from 'v-block.layout'
 function App() {
   
   return (
-  	<VGroup width="100vw" height="100vh" padding="5px 10px"
+    <VGroup width="100vw" height="100vh" padding="5px 10px"
             horizontal="center" vertical="center">
     	<h1>ESBuild HTML PLUGIN</h1>
     </VGroup>
@@ -134,7 +134,7 @@ PS:
   </head>
   <body>
     <div id="root"></div>
-		<script src="index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
 ```
