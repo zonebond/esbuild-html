@@ -8,7 +8,7 @@
 
 <br>
 
-> #### Install :: 安装
+> #### Install
 
 ---
 
@@ -22,7 +22,7 @@ yarn add esbuild-html -D
 
 <br>
 
-> #### Usage :: 使用
+> #### Usage
 
 ---
 ### Simple example
