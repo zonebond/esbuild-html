@@ -56,6 +56,7 @@ export default function esbuildHTML({ parameters }) {
 function BUILD_IMPORTER_HTML(template, PUBLIC_PATH, { moduleName, ...others }) {
 
   const contents = ARGUMENT_TMP_MATCHOR(template, {
+    title: moduleName,
     ...others,
     styles: `<link rel="stylesheet" href="${path.join('./', PUBLIC_PATH, moduleName + '.css')}" />`,
     script: `<script src="${path.join('./', PUBLIC_PATH, moduleName + '.js')}"></script>`,
