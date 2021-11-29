@@ -115,6 +115,7 @@ PS:
   </head>
   <body>
     <div id="root"></div>
+    <div><%= valueA %></div>
     <%= script %>
   </body>
 </html>
@@ -134,6 +135,7 @@ PS:
   </head>
   <body>
     <div id="root"></div>
+    <div>123</div>
     <script src="index.js"></script>
   </body>
 </html>

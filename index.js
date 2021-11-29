@@ -17,7 +17,7 @@ const DEFAULT_HTML_FILTERED = /^\?.+\.html$/;
 
 const ROOT = (...args) => path.join(process.cwd(), ...args);
 
-export default function esbuildHTML({ parameters }) {
+export default function esbuildHTML({ parameters, favicon }) {
   parameters = parameters || {};
 
   const setup = async build => {

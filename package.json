@@ -1,6 +1,6 @@
 {
   "name": "esbuild-html",
-  "version": "1.0.1",
+  "version": "1.0.1-rc",
   "description": "esbuild plugin for generate pages html.",
   "main": "index.js",
   "author": "zonebond",
